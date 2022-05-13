@@ -4,12 +4,22 @@
 
 cocot46plus is a column staggered keyboard with 46 keys, a 34mm-trackball and a rotary encoder.
 
-cocot46plus supports following features;
-- Compact but functional and ergonomic layout.
-- A 34mm trackball and a scroll wheel located at the center of the keyboard, which support mouse functions.
-- Underglow RGB lights and indicator lights which show layer state.
-- Compatible with VIA (not merged but json file provided) and REMAP (TBA) and easily arrange custom keymaps.
+- Keyboard Maintainer: [aki27kbd](https://github.com/aki27kbd) [@aki27kbd](https://twitter.com/aki27kbd)
+- Hardware Supported: cocot46plus PCB, ProMicro
+- Hardware Availability: [BOOTH](https://aki27.booth.pm/)
 
 [Firmware](https://github.com/aki27kbd/qmk_firmware/tree/master/keyboards/cocot46plus)
 
 [Build Guide](To be updated...)
+
+### Special keycodes
+
+Value    | Keycode   |Description
+---------|-----------|-----------
+`0x5DA7` | `CPI_SW`  |Switch CPI
+`0x5DA8` | `SCRL_SW` |Switch scroll divider
+`0x5DA9` | `ROT_R15` |Rotate sensor coordinate by 15 degrees clockwise
+`0x5DAA` | `ROT_L15` |Rotate sensor coordinate by 15 degrees counterclockwise
+`0x5DAB` | `SCRL_MO` |Enable scroll mode when pushed
+`0x5DAC` | `SCRL_TO` |Toggle scroll mode. Once pushed, mouse mode and scroll mode are switched.
+`0x5DAD` | `SCRL_IN` |Invert scroll direction
