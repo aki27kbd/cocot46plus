@@ -14,8 +14,7 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 |名前|数|備考|
 |---|---|---|
 |スイッチプレート（FR4）|1枚||
-|実装済基板|1枚|![PCB](https://user-images.githubusercontent.com/88039287/170449594-f5357de6-4e08-4077-a050-3e613a48e674.jpg)
-|
+|実装済基板|1枚|![PCB](https://user-images.githubusercontent.com/88039287/170449594-f5357de6-4e08-4077-a050-3e613a48e674.jpg)|
 |ボトムプレート➀（アクリル）|1枚||
 |ボトムプレート➁（FR4）|1枚||
 |OLEDカバープレート（FR4）|1枚||
