@@ -6,7 +6,8 @@ cocot46plus is a column staggered keyboard with 46 keys, a 34mm-trackball and a 
 
 - Keyboard Maintainer: [aki27kbd](https://github.com/aki27kbd) [@aki27kbd](https://twitter.com/aki27kbd)
 - Hardware Supported: cocot46plus PCB, ProMicro
-- Hardware Availability: [BOOTH](https://aki27.booth.pm/)
+- Hardware Availability: [BOOTH](https://aki27.booth.pm/items/3879034)
+  Go on sale in June 2022.
 
 [Firmware](https://github.com/aki27kbd/qmk_firmware/tree/master/keyboards/cocot46plus)
 
@@ -23,3 +24,15 @@ Value    | Keycode   |Description
 `0x5DAB` | `SCRL_MO` |Enable scroll mode while being pressed
 `0x5DAC` | `SCRL_TO` |Toggle scroll mode. Once pushed, mouse mode and scroll mode are switched.
 `0x5DAD` | `SCRL_IN` |Invert scroll direction
+
+### Gallery
+
+![cocot46plus_bg_oled_2](https://user-images.githubusercontent.com/88039287/170669368-738a0ce6-6d6a-49da-bce9-ccc97b7a5861.jpg)
+
+![cocot46plus_main14](https://user-images.githubusercontent.com/88039287/170669470-d258e0f5-6dba-4e6a-8008-43c8c6c1f1b2.jpg)
+
+![cocot46plus_main05](https://user-images.githubusercontent.com/88039287/170669586-f97a07f9-cc3e-4ec8-8144-de095594974b.jpg)
+
+![cocot46plus_main02](https://user-images.githubusercontent.com/88039287/170669653-933e0ebc-dbf4-4f3d-9d89-2d6171de5415.jpg)
+
+![cocot46plus_main10](https://user-images.githubusercontent.com/88039287/170669715-810a73a1-d12f-4cf3-9f66-493bf0615beb.jpg)
