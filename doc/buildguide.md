@@ -11,27 +11,23 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 ## 部品
 ### キット付属品
 
-|名前|数|備考|
-|---|---|---|
-|スイッチプレート（FR4）|1枚||
-|実装済基板|1枚|![PCB](https://user-images.githubusercontent.com/88039287/170449594-f5357de6-4e08-4077-a050-3e613a48e674.jpg)|
-|ボトムプレート➀（アクリル）|1枚||
-|ボトムプレート➁（FR4）|1枚||
-|OLEDカバープレート（FR4）|1枚||
-|M2 スペーサー 8mm（メス―メス）|15本|![Spacer_8mm](https://user-images.githubusercontent.com/88039287/170515649-114cee4e-3dec-4465-a310-c989946c1a42.jpg)|
-|M2 スペーサー 6mm（メス―メス）|4本|![Spacer_6mm](https://user-images.githubusercontent.com/88039287/170515641-9056cd4a-f58b-4ec7-a39d-e395ed9dab3d.jpg)|
-|M2 スペーサー 3mm（メス―オス）|4本|![Spacer_3mm](https://user-images.githubusercontent.com/88039287/170515631-8b3ecdaf-416b-4bc4-814a-b78e2ecb9564.jpg)|
-|M2 ねじ 3mm|19本|![Screw_3mm](https://user-images.githubusercontent.com/88039287/170508488-f9c20e9d-b73d-4815-877d-80143e98b4a0.jpg)|
-|M2 ねじ 5mm|15本|![Screw_5mm](https://user-images.githubusercontent.com/88039287/170508494-bdf5d0af-b931-436f-9bb0-2520529e32d8.jpg)|
-|M2 ねじ 8mm|4本|![Screw_8mm](https://user-images.githubusercontent.com/88039287/170508513-d78bf413-0ffd-4d2b-af5c-ba677e04bc4d.jpg)|
-|MX互換スイッチ用PCBソケット|46個|![SwitchSocket](https://user-images.githubusercontent.com/88039287/169816640-7a40ab51-2435-484f-a2ad-c020c374494e.jpg)|
-|マウスセンサー（ADNS-5050）・レンズ|1個|![ADNS5050](https://user-images.githubusercontent.com/88039287/169820156-9035cbba-5442-4802-9604-11034021dc22.jpeg)|
-|マウスセンサー用LED|1個|![SensorLED](https://user-images.githubusercontent.com/88039287/169820117-6e0fe2ec-c245-4c5a-a4a0-493fbcde3c55.jpeg)|
-|OLEDモジュール・ピンソケット・ピンヘッダ|各1個|![OLED](https://user-images.githubusercontent.com/88039287/169819901-5ce452c8-a375-4aa5-b7b8-a138fdbe6984.jpeg)|
-|タクトスイッチ|1個|![ResetSwitch](https://user-images.githubusercontent.com/88039287/169819952-702c3c93-5d5c-447f-826e-60da1ef909b2.jpeg)|
-|ロータリーエンコーダ（EC12互換）|1個|![RotaryEncoder](https://user-images.githubusercontent.com/88039287/169816718-450c08e5-dff6-49ae-8aa3-451d7397d9e2.jpg)|
-|フルカラーシリアルLED (SK6812MINI-E)|2個|![SK6812MINI-E](https://user-images.githubusercontent.com/88039287/169815407-b250e15f-a0f6-411f-9e6a-54aa07cd5fa0.jpg)|
-|ゴム足|6個|![ゴム足](https://user-images.githubusercontent.com/88039287/169814183-75fbffd8-37b3-4ab7-a23b-17e0d72b70cd.jpg)|
+|![Switch_Plate](https://user-images.githubusercontent.com/88039287/171806873-68054a1a-36d1-4915-b93d-127a05854126.jpg)|![PCB](https://user-images.githubusercontent.com/88039287/170449594-f5357de6-4e08-4077-a050-3e613a48e674.jpg)|![Bottom_Acryl](https://user-images.githubusercontent.com/88039287/170622426-63cfeaea-aa0a-4e17-b10a-165db2cff906.jpg)|![Bottom_FR4](https://user-images.githubusercontent.com/88039287/171806984-461ad017-8711-4a60-9600-2489366fadf8.jpg)|
+|---|---|---|---|
+|スイッチプレート（FR4）×1枚|実装済基板×1枚|ボトムプレート➀（アクリル）×1枚|ボトムプレート➁（FR4）×1枚|
+|![OLED_Cover](https://user-images.githubusercontent.com/88039287/171806991-c0f1b51d-bc91-48cc-b005-a78fb0f66c97.jpg)|![Spacer_8mm](https://user-images.githubusercontent.com/88039287/170515649-114cee4e-3dec-4465-a310-c989946c1a42.jpg)|![Spacer_6mm](https://user-images.githubusercontent.com/88039287/170515641-9056cd4a-f58b-4ec7-a39d-e395ed9dab3d.jpg)|![Spacer_3mm](https://user-images.githubusercontent.com/88039287/170515631-8b3ecdaf-416b-4bc4-814a-b78e2ecb9564.jpg)|
+|OLEDカバープレート（FR4）×1枚|M2 スペーサー 8mm（メス―メス）×15本|M2 スペーサー 6mm（メス―メス）×4本|M2 スペーサー 3mm（メス―オス）×4本|
+|![Screw_3mm](https://user-images.githubusercontent.com/88039287/170508488-f9c20e9d-b73d-4815-877d-80143e98b4a0.jpg)|![Screw_5mm](https://user-images.githubusercontent.com/88039287/170508494-bdf5d0af-b931-436f-9bb0-2520529e32d8.jpg)|![Screw_8mm](https://user-images.githubusercontent.com/88039287/170508513-d78bf413-0ffd-4d2b-af5c-ba677e04bc4d.jpg)|![SwitchSocket](https://user-images.githubusercontent.com/88039287/169816640-7a40ab51-2435-484f-a2ad-c020c374494e.jpg)|
+|M2 ねじ 3mm×19本|M2 ねじ 5mm×15本|M2 ねじ 8mm×4本|MX互換スイッチ用PCBソケット×46個|
+|![ADNS5050](https://user-images.githubusercontent.com/88039287/169820156-9035cbba-5442-4802-9604-11034021dc22.jpeg)|![SensorLED](https://user-images.githubusercontent.com/88039287/169820117-6e0fe2ec-c245-4c5a-a4a0-493fbcde3c55.jpeg)|![OLED](https://user-images.githubusercontent.com/88039287/169819901-5ce452c8-a375-4aa5-b7b8-a138fdbe6984.jpeg)|![ResetSwitch](https://user-images.githubusercontent.com/88039287/169819952-702c3c93-5d5c-447f-826e-60da1ef909b2.jpeg)|
+|マウスセンサー（ADNS-5050）・レンズ×各1個|マウスセンサー用LED×1個|OLEDモジュール・ピンソケット・ピンヘッダ×各1個|タクトスイッチ×1個|
+|![RotaryEncoder](https://user-images.githubusercontent.com/88039287/169816718-450c08e5-dff6-49ae-8aa3-451d7397d9e2.jpg)|![SK6812MINI-E](https://user-images.githubusercontent.com/88039287/169815407-b250e15f-a0f6-411f-9e6a-54aa07cd5fa0.jpg)|![ゴム足](https://user-images.githubusercontent.com/88039287/169814183-75fbffd8-37b3-4ab7-a23b-17e0d72b70cd.jpg)||
+|ロータリーエンコーダ（EC12互換）×1個|フルカラーシリアルLED (SK6812MINI-E)×2個|ゴム足×6個||
+
+### ボールケース付属品
+
+|![Ballcase_34mm](https://user-images.githubusercontent.com/88039287/171815139-c530fdfb-a4dc-42fb-ba31-a66bc673ff44.jpg)|![Ballcase_25mm](https://user-images.githubusercontent.com/88039287/171815132-bf7c2f25-3ba6-4d81-811f-e86ddecdd764.jpg)|
+|---|---|
+|34mmボールケース（上・下）×1個|25mmボールケース（上・下）・25mmボール×1個|
 
 
 ### キット以外に必要なもの
@@ -176,18 +172,42 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 
   ![cocot46plus_bg_09_4](https://user-images.githubusercontent.com/88039287/170474767-5a647ab8-ec9e-475e-a5a2-dbfa7f804846.jpg)
 
-### 10. キースイッチ
 
-  トッププレートにキースイッチをはめ込みます。
-
-  ![cocot46plus_bg_10_switch](写真追加)
-
-### 11. 組み立て
+### 10. 組み立て
 
   To be updated.
+  ボトムプレート（アクリル）に5mmネジで8mmスペーサーを固定します。  
+  ![cocot46plus_bg_10_1](https://user-images.githubusercontent.com/88039287/171879994-45020675-e3e5-491c-94e8-8f10647011dc.jpg)
 
-  ![cocot46plus_bg_11_assembly](写真追加)
+  ボトムプレート（FR4）をアクリルの裏側（底側）に重ね、5mmネジで3mmスペーサー（メス―オス）を固定します。  
+  ![cocot46plus_bg_10_2](https://user-images.githubusercontent.com/88039287/171880618-86b4a8c0-8a22-49cf-9021-a2281c51c2af.jpg)
 
+  基板上に3mmネジで8mmスペーサーを固定します。またOLEDもピンソケットに差し込んでおきます。  
+  ![cocot46plus_bg_10_3](https://user-images.githubusercontent.com/88039287/171881016-c5cdf3c9-ce5d-4273-bb90-fc0c4ebfe5a9.jpg)
+
+  スイッチプレートと基板を重ね、隅から順番にキースイッチをはめていきます。スイッチの向きに気を付けて、またスイッチの脚が曲がらないように真っすぐに差し込むようにしてください。  
+  ![cocot46plus_bg_10_4](https://user-images.githubusercontent.com/88039287/171824033-ace5a500-1ddf-48ca-9bd8-ebec2124e5dd.jpg)
+
+  全てのキースイッチを差し込んだ状態です。  
+  ![cocot46plus_bg_10_5](https://user-images.githubusercontent.com/88039287/171824021-608cc69b-2f85-4d8a-adb3-41fcdd79617c.jpg)
+
+  スイッチを差し込んだスイッチプレート&基板を、ボトムプレートの上に重ねます。トラックボール廻りの4箇所を6mmスペーサーで固定します。  
+  ![cocot46plus_bg_10_6](https://user-images.githubusercontent.com/88039287/171881711-fff519e3-f4d9-43fa-91f1-e2db09ebb302.jpg)
+
+  スイッチプレートを3mmネジで固定します。  
+  ![cocot46plus_bg_10_7](https://user-images.githubusercontent.com/88039287/171882199-1ff363c5-eee2-4ed3-8c2b-51cbbfb57c04.jpg)
+
+  OLEDカバープレートを3mmネジで固定します。  
+  ![cocot46plus_bg_10_8](https://user-images.githubusercontent.com/88039287/171882865-7f5b7abf-20c2-42ec-9d7b-1b7622fae37d.jpg)
+
+  トラックボールケースに対応するボールを入れ、8mmネジで固定します。  
+  ![cocot46plus_bg_10_9](https://user-images.githubusercontent.com/88039287/171883283-fffed352-0f25-4d74-8c89-b18b8e9e8224.jpg)
+
+  ボトムプレートにバランスよくゴム脚を貼り付けます。  
+  ![cocot46plus_bg_10_10](https://user-images.githubusercontent.com/88039287/171824584-1361360a-e5be-4d3c-9e66-b0b67770ad55.jpg)
+
+  お好みのキーキャップ、ロータリーエンコーダのノブを付けて完成です！
+  ![cocot46plus_bg_10_11](https://user-images.githubusercontent.com/88039287/171824592-1894730f-27d0-466f-840b-9d848abf2791.jpg)
 
 ## ファームウェア
 
@@ -241,7 +261,7 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
   手の大きさやトラックボールへの手の置き方によって、操作しやすいY軸の回転角が異なります。`ROT_R15`、`ROT_L15`キーで調整しながら自分に合った設定を探してみてください。  
   ![cocot46plus_bg_oled_2_2](https://user-images.githubusercontent.com/88039287/170499867-b430839b-f2f0-4163-afa2-c227184bd697.jpg)
 
-  ![cocot46plus_bg_oled_3_4_5](https://user-images.githubusercontent.com/88039287/170501028-10d08bdd-df0f-406f-9b7f-14e1f0d8a726.jpg)
+  ![cocot46plus_bg_oled_3_4_5](https://user-images.githubusercontent.com/88039287/171883896-1a3b91cb-84b8-425c-b490-9affa5f42095.jpg)
 
 
 
