@@ -1,6 +1,7 @@
 # Build Guide
 
-![cocot46plus_main12](https://user-images.githubusercontent.com/88039287/170438554-630e1c55-a0de-4021-96c9-22d9bfee850e.jpg)
+![cocot46plus_main15](https://user-images.githubusercontent.com/88039287/171889114-53163c9f-4ef2-492d-b12b-7b6a23578bdf.jpg)
+
 
 cocot46plusのビルドガイドになります。
 cocot46plusは中央に34mmトラックボールを備えていることが一つの特徴です。
@@ -42,6 +43,7 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 |キースイッチ|46個|MX互換|
 |キーキャップ（1U）|46個|MX互換|
 |ロータリーエンコーダ用ノブ|1個|最大直径22mm以下|
+|34mmボール|1個|34mmボールケースを選択した場合|
 
 各ショップの在庫状況に応じて検討ください。
 
