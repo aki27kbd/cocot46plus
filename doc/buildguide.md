@@ -299,7 +299,12 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 
   ![cocot46plus_bg_oled_3_4_5](https://user-images.githubusercontent.com/88039287/171883896-1a3b91cb-84b8-425c-b490-9affa5f42095.jpg)
 
+## Links
 
+  [【トラックボール】cocot46plus【自作キーボード】](https://www.youtube.com/watch?v=U7nu5G_PX5Y) (by 椎葉さん)  
+  トラックボールの使い心地、内部構造、適合するボール色など紹介いただいています。
+
+  [Gallery on Twitter](https://twitter.com/search?q=%23cocot46plus&src=typed_query&f=image)
 
 ## 終わりに
 何かトラブルがあれば[Twitterアカウント](https://twitter.com/aki27kbd)までご連絡ください。
