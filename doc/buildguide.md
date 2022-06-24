@@ -48,7 +48,7 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 各ショップの在庫状況に応じて検討ください。
 
 ※34mmボールの色に応じてセンサーの反応が悪くなる場合があります。  
-※デフォルトで反応の悪いボール色も後述の[オプションMOD](https://github.com/aki27kbd/cocot46plus/blob/main/doc/buildguide.md#%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2)を施すことで、スムーズに反応するようになります。
+※デフォルトで反応の悪いボール色も後述の[オプションMOD](https://github.com/aki27kbd/cocot46plus/blob/main/doc/buildguide.md#%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3mod)を施すことで、スムーズに反応するようになります。
 
 |反応性|色|
 |---|---|
