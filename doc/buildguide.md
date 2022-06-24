@@ -14,7 +14,7 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 
 |![Switch_Plate](https://user-images.githubusercontent.com/88039287/171806873-68054a1a-36d1-4915-b93d-127a05854126.jpg)|![PCB](https://user-images.githubusercontent.com/88039287/170449594-f5357de6-4e08-4077-a050-3e613a48e674.jpg) ![PCB_v2](https://user-images.githubusercontent.com/88039287/175255696-1d310e30-9058-4b14-a484-3ebb340d5741.jpg)|![Bottom_Acryl](https://user-images.githubusercontent.com/88039287/170622426-63cfeaea-aa0a-4e17-b10a-165db2cff906.jpg)|![Bottom_FR4](https://user-images.githubusercontent.com/88039287/171806984-461ad017-8711-4a60-9600-2489366fadf8.jpg)|
 |---|---|---|---|
-|スイッチプレート（FR4）×1枚|実装済基板×1枚（販売時期によってタブがついている場合があります）|ボトムプレート➀（アクリル）×1枚|ボトムプレート➁（FR4）×1枚|
+|スイッチプレート（FR4）×1枚|実装済基板×1枚（販売時期によってタブがついている場合があります）|ボトムプレート➀（アクリル）×1枚（販売時期によってデザインが異なる場合があります）|ボトムプレート➁（FR4）×1枚|
 |![OLED_Cover](https://user-images.githubusercontent.com/88039287/171806991-c0f1b51d-bc91-48cc-b005-a78fb0f66c97.jpg)|![Spacer_8mm](https://user-images.githubusercontent.com/88039287/170515649-114cee4e-3dec-4465-a310-c989946c1a42.jpg)|![Spacer_6mm](https://user-images.githubusercontent.com/88039287/170515641-9056cd4a-f58b-4ec7-a39d-e395ed9dab3d.jpg)|![Spacer_3mm](https://user-images.githubusercontent.com/88039287/170515631-8b3ecdaf-416b-4bc4-814a-b78e2ecb9564.jpg)|
 |OLEDカバープレート（FR4）×1枚|M2 スペーサー 8mm（メス―メス）×15本|M2 スペーサー 6mm（メス―メス）×4本|M2 スペーサー 3mm（メス―オス）×4本|
 |![Screw_3mm](https://user-images.githubusercontent.com/88039287/170508488-f9c20e9d-b73d-4815-877d-80143e98b4a0.jpg)|![Screw_5mm](https://user-images.githubusercontent.com/88039287/170508494-bdf5d0af-b931-436f-9bb0-2520529e32d8.jpg)|![Screw_8mm](https://user-images.githubusercontent.com/88039287/170508513-d78bf413-0ffd-4d2b-af5c-ba677e04bc4d.jpg)|![SwitchSocket](https://user-images.githubusercontent.com/88039287/169816640-7a40ab51-2435-484f-a2ad-c020c374494e.jpg)|
@@ -47,7 +47,8 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 
 各ショップの在庫状況に応じて検討ください。
 
-※34mmボールの色に応じてセンサーの反応が悪くなる場合があります。
+※34mmボールの色に応じてセンサーの反応が悪くなる場合があります。  
+※デフォルトで反応の悪いボール色も後述の[オプションMOD](https://github.com/aki27kbd/cocot46plus/blob/main/doc/buildguide.md#%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2)を施すことで、スムーズに反応するようになります。
 
 |反応性|色|
 |---|---|
@@ -305,6 +306,19 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
   ![cocot46plus_bg_oled_2_2](https://user-images.githubusercontent.com/88039287/170499867-b430839b-f2f0-4163-afa2-c227184bd697.jpg)
 
   ![cocot46plus_bg_oled_3_4_5](https://user-images.githubusercontent.com/88039287/171883896-1a3b91cb-84b8-425c-b490-9affa5f42095.jpg)
+
+## オプション
+
+  デフォルトの状態では反応の悪いボール色も、少し手を加えることでスムーズに反応するようになります。
+
+  PCB裏面のR1のスルーホール端子部分に小さめの抵抗を付けることでセンサー用LEDの明るさが増し、緑や黒の暗い色の球でも反応するようになります。
+
+  参考までに、ぺリックス緑球は[300Ω](https://akizukidenshi.com/catalog/g/gR-25301/)、ぺリックス黒球は[150Ω](https://akizukidenshi.com/catalog/g/gR-25151/)で動作確認できています。
+
+  ![cocot46plus_bg_mod_1](https://user-images.githubusercontent.com/88039287/175553271-ab133f23-baa0-479b-8bf1-9814e3324789.jpg)
+
+  ![cocot46plus_bg_mod_2](https://user-images.githubusercontent.com/88039287/175553266-1370696c-3f86-420b-bee9-94a090027a80.jpg)
+
 
 ## Links
 
