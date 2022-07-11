@@ -240,14 +240,17 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
   |アクリルミドルプレート（下）|1枚|※1|
   |シリコンシート 厚さ0.5mm|1枚|[こちら](https://www.monotaro.com/p/3629/5253/)から購入可能|
 
-  ※1 アクリルプレートは、[こちらのデータ](https://github.com/aki27kbd/cocot46plus/blob/main/doc/cocot46plus_middle.zip?raw=true)を用いてください。お好みのカラーで**厚さ3㎜・A4サイズ**を指定して発注するようにしてください。
+
+  ※1 遊舎工房のアクリルプレートサービスより、[cocot46plusのミドルプレート](https://shop.yushakobo.jp/collections/services/products/keyboard_acrylic_plate?variant=43940451746023)が選択できるようになりました。こちらからアクリルカラーを選択して発注してください。  
+  元データは[こちら](https://github.com/aki27kbd/cocot46plus/blob/main/doc/cocot46plus_middle.zip?raw=true)にあります。オリジナルの積層ケースを作成したい場合などに用いてください。
+
 
   シリコンシートのカッティング補助用に、[こちら](https://github.com/aki27kbd/cocot46plus/blob/main/doc/cocot46plus_middle_cutting_sheet.pdf)のシートをダウンロードし、**拡大率100%** で印刷してください。用紙に合わせて印刷してしまうとキースイッチの位置がずれてしまうのでご注意ください。
   印刷した型紙に、保護シートをはがしたシリコンシートを貼り付けます。ねじ部分は後からカットすることが難しいので、この状態で赤い部分のみカットしておきます。デザインナイフやカッターナイフ（30度刃）がカットしやすいと思います。
 
   赤い部分をカットし終わったら、キースイッチの位置が合うようにミドルアクリルプレート（上）をシリコンシートの上に置き、外形（青線）とキースイッチ部分（灰色線）をカットしていきます。
 
-  ボトムプレート、ミドルプレート（下）PCB、ミドルプレート（上）、トッププレートの順に重ねます。
+  ボトムプレート、ミドルプレート（下）PCB、ミドルプレート（上）、スイッチプレートの順に重ねます。
 
   cocot46の[ビルドガイド](https://github.com/aki27kbd/cocot46/blob/main/doc/buildguide.md#10-%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E7%A9%8D%E5%B1%A4%E3%82%B1%E3%83%BC%E3%82%B9%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3)も参考に組み立ててみてください。
 
@@ -265,6 +268,8 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 
 
 組み立て段階で動作確認をする際も、REMAPのTest Matrix Modeを使うと便利です。
+
+標準ファームウェアでは、レイヤー1と2でトラックボールの動きがスクロールに変換されるようになっています。スクロールモードになるレイヤーを変更したい場合は、keymap.cを修正してください。
 
 ソースコードは[こちら](https://github.com/aki27kbd/qmk_firmware/tree/master/keyboards/cocot46plus)を参照ください。  
 また、VIA用のjsonファイルは[こちら](https://github.com/aki27kbd/cocot46plus/blob/main/firmware/cocot46plus_via.json)を参照ください。
