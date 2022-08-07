@@ -269,7 +269,7 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 ![REMAP](https://user-images.githubusercontent.com/88039287/169829273-3694b209-59a6-4906-a8a7-2debab667cdf.jpg)
 
 
-組み立て段階で動作確認をする際も、REMAPのTest Matrix Modeを使うと便利です。
+組み立て段階で動作確認をする際も、REMAPのTest Matrix Modeを使うと便利です。ただし、Test Matrix Modeではロータリーエンコーダの回転は確認できないので、別途キー入力等で動作を試してください。
 
 標準ファームウェアでは、レイヤー1と2でトラックボールの動きがスクロールに変換されるようになっています。スクロールモードになるレイヤーを変更したい場合は、keymap.cを修正してください。
 
