@@ -33,7 +33,7 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 
 ### キット以外に必要なもの
 
-下記パーツは[遊舎工房](https://shop.yushakobo.jp/)、[TALP KEYBOARD](https://talpkeyboard.net/)、[Daily Craft Keyboard](https://shop.dailycraft.jp/)などで揃えることが可能です。
+下記パーツは[遊舎工房](https://shop.yushakobo.jp/)、[TALP KEYBOARD](https://talpkeyboard.net/)、[Daily Craft Keyboard](https://shop.dailycraft.jp/)などで揃えることが可能です。また、22mm径ノブは[へちょあまの工房＠たねやつ支店](https://booth.pm/ja/items/3944829)での品揃えが豊富です。
 
 |名前|数|備考|
 |---|---|---|
@@ -49,6 +49,7 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 
 ※34mmボールの色に応じてセンサーの反応が悪くなる場合があります。  
 ※デフォルトで反応の悪いボール色も後述の[オプションMOD](https://github.com/aki27kbd/cocot46plus/blob/main/doc/buildguide.md#%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3mod)を施すことで、スムーズに反応するようになります。
+※[2022/8/8追記] ver1.1以降の基板では、予め[オプションMOD](https://github.com/aki27kbd/cocot46plus/blob/main/doc/buildguide.md#%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3mod)が施された状態になっています。デフォルトのままでグリーン、ブラックなどの暗い色のボールの反応も改善されています。
 
 |反応性|色|
 |---|---|
@@ -93,6 +94,7 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 
   ProMicro横の2箇所にインジケータLEDのはんだ付けを行います。4箇所あるパッドの1箇所に予備はんだを盛り、LEDの位置を固定します。PCBのシルク上の角の部分と、LEDの三角に欠けている部分の向きが揃うようにはんだ付けしてください。LEDは非常に熱に弱いので、はんだごての温度を低めに設定し、一か所はんだ付けをしたら十分時間をおいてから次のはんだ付けを行いましょう。  
   この段階で後述のファームウェアを準備し、LEDの点灯を一つずつ確認しながらはんだ付けを行うとミスの早期発見につながります。
+  ※デフォルトのファームウェアでは、レイヤー0ではインジケータLEDが点灯しません。点灯確認の際はSW39もしくはSW44のパッドをピンセットなどで短絡させ、レイヤー移動した状態で確認ください。
 
   ![cocot46plus_bg_02_1](https://user-images.githubusercontent.com/88039287/170450128-7bccdcf2-7e3d-40a5-97e1-0080989e8aac.jpg)
 
@@ -313,6 +315,8 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
   ![cocot46plus_bg_oled_3_4_5](https://user-images.githubusercontent.com/88039287/171883896-1a3b91cb-84b8-425c-b490-9affa5f42095.jpg)
 
 ## オプションMOD
+
+  ※※[2022/8/8追記] ver1.1以降の基板では、予めこちらのオプションMODが施された状態になっています。デフォルトのままでグリーン、ブラックなどの暗い色のボールの反応も改善されています。
 
   デフォルトの状態では反応の悪いボール色も、少し手を加えることでスムーズに反応するようになります。
 
