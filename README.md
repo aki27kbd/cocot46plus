@@ -15,7 +15,7 @@ The detail information is available from the link below:
 
 [Firmware](https://github.com/aki27kbd/qmk_firmware/tree/master/keyboards/cocot46plus)
 
-[Build Guide](https://github.com/aki27kbd/cocot46plus/blob/main/doc/buildguide.md)
+Build Guide [JP](doc/buildguide.md) / [EN](doc/buildguide_en.md)
 
 ### Special keycodes
 
