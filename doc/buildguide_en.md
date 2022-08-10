@@ -46,14 +46,14 @@ The following parts can be obtained from [Yousha Kobo](https://shop.yushakobo.jp
 |34mm trackball|1piece|34mm ball case if selected|
 
 *Sensor performance depends on the color of the trackball.  
-*To improve the sensor performance of other ball colors [a small modification](#Optional-mod) is available.
-*[Added on 8/8/2022] For boards with ver1.1 or later, please add the [following mod](#Optional-mod). The default performance is still the same, but the response of balls with darker colors such as green, black, etc. is also improved.
+*To improve the sensor performance of other ball colors a [modification](#Optional-mod) is available.  
+*[Added on 8/8/2022] For boards with ver1.1 or later, [following mod](#Optional-mod) has already been implemented in default. The default performance is still the same, but the response of balls with darker colors such as green, black, etc. is also improved.
 
 |Reactivity|Color|
 |---|---|
-|0 (smooth operation possible)|Red, Purple, Silver, Gold, Gray, Yellow, Pink, Lavender|
-|△(The angle of the LED may make it a little less responsive)|Blue, Green||
-|× (No response or stutter)|Black|
+|Good (smooth operation possible)|Red, Purple, Silver, Gold, Gray, Yellow, Pink, Lavender|
+|Not good (The angle of the LED may make it a little less responsive, better to implement the modification)|Blue, Green||
+|Worse (No response or stutter, need the modification)|Black|
 
 
 ### Optional parts (acrylic case)
@@ -114,7 +114,8 @@ Silicon sheets can be purchased from [here](https://www.monotaro.com/p/3629/5253
 ### 5. mouse sensor
 
 #### 5-1. ADNS-5050
-  Place the mouse sensor (ADNS-5050) from the backside of the board in the orientation shown in the photo and solder from the topside. Be careful to align the ●● mark on the silkscreen with the ●● mark on the board.  
+  Place the mouse sensor (ADNS-5050) from the backside of the board in the orientation shown in the photo and solder from the topside.   
+  ***Make sure to align the ●● mark on the silkscreen with the ●● mark on the board.***  
   ![cocot46plus_bg_05_1](https://user-images.githubusercontent.com/88039287/170453958-e58aca65-1f71-4da0-9e0e-cbbb40e56425.jpg)
 
   With the sensor legs firmly in place, secure them with masking tape or other means so that they stay in place.  
@@ -145,6 +146,7 @@ Silicon sheets can be purchased from [here](https://www.monotaro.com/p/3629/5253
   ![cocot46plus_bg_05_8](https://user-images.githubusercontent.com/88039287/170455929-1655e25f-8b99-49c7-b6f9-6a1d540ee2c3.jpg)
 
   Once you have completed this step, flash the firmware mentioned below and check the operation. If you have followed the steps correctly, a total of 12 LEDs and the LED for the mouse sensor should be lit.  
+  ***The latest firmware supports LED1 & 2 as indicators. They are lit only when the layer is moved from the default.***
   ![cocot46plus_bg_05_9a](https://user-images.githubusercontent.com/88039287/170456116-d3602e8f-aa3c-4f3c-8777-1d4b63a35322.jpg)
 
   Hold your hand in front of the lens on the top side and check if the mouse cursor is moving.  
