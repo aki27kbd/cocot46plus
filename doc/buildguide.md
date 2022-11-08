@@ -47,15 +47,20 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 
 各ショップの在庫状況に応じて検討ください。
 
-※34mmボールの色に応じてセンサーの反応が悪くなる場合があります。  
+<details>
+<summary>ver1.0でのボール色による反応について</summary>
+※ver1.0基板では、34mmボールの色に応じてセンサーの反応が悪くなる場合があります。  
 ※デフォルトで反応の悪いボール色も後述の[オプションMOD](https://github.com/aki27kbd/cocot46plus/blob/main/doc/buildguide.md#%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3mod)を施すことで、スムーズに反応するようになります。
 ※[2022/8/8追記] ver1.1以降の基板では、予め[オプションMOD](https://github.com/aki27kbd/cocot46plus/blob/main/doc/buildguide.md#%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3mod)が施された状態になっています。デフォルトのままでグリーン、ブラックなどの暗い色のボールの反応も改善されています。
+
 
 |反応性|色|
 |---|---|
 |〇（スムーズに動作可能）|レッド、パープル、シルバー、ゴールド、グレー、イエロー、ピンク、ラベンダー|
 |△（LEDの角度によって少し反応が悪くなる場合あり）|ブルー、グリーン|
 |×（反応しないorカクつく）|ブラック|
+
+</details>
 
 
 ### オプション部品（アクリル積層ケース）
@@ -273,7 +278,7 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 
 標準ファームウェアでは、レイヤー1と2でトラックボールの動きがスクロールに変換されるようになっています。スクロールモードになるレイヤーを変更したい場合は、keymap.cを修正してください。
 
-ソースコードは[こちら](https://github.com/aki27kbd/qmk_firmware/tree/master/keyboards/cocot46plus)を参照ください。  
+ソースコードは[こちら](https://github.com/aki27kbd/qmk_firmware/tree/master/keyboards/aki27/cocot46plus)を参照ください。  
 また、VIA用のjsonファイルは[こちら](https://github.com/aki27kbd/cocot46plus/blob/main/firmware/cocot46plus_via.json)を参照ください。
 
 
@@ -295,6 +300,9 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 
   ![CustomKeycode](https://user-images.githubusercontent.com/88039287/169856477-84ebf6bb-9430-44f8-a650-537ab8f0a79b.jpg)
 
+  ※[2022/11/8追記] 最新の[ファームウェア](https://remap-keys.app/catalog/JPk6Ey9xB6yrr5TDqoLh/firmware)を書き込むと、RemapからValueを直接入力することなくカスタムキーコードを入力できるようになりました。
+  ![CustomKeycode_rev](https://user-images.githubusercontent.com/88039287/200452631-9aac13d4-22e4-45f8-866a-a6e3093cbaf8.jpg)
+
 
 ## OLED
 
@@ -314,11 +322,15 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 
   ![cocot46plus_bg_oled_3_4_5](https://user-images.githubusercontent.com/88039287/171883896-1a3b91cb-84b8-425c-b490-9affa5f42095.jpg)
 
+
 ## オプションMOD
 
   ※※[2022/8/8追記] ver1.1以降の基板では、予めこちらのオプションMODが施された状態になっています。デフォルトのままでグリーン、ブラックなどの暗い色のボールの反応も改善されています。
 
-  デフォルトの状態では反応の悪いボール色も、少し手を加えることでスムーズに反応するようになります。
+  <details>
+<summary>オプションMOD</summary>
+
+  ver1.0基板のデフォルトの状態では反応の悪いボール色も、少し手を加えることでスムーズに反応するようになります。
 
   PCB裏面のR1のスルーホール端子部分に小さめの抵抗を付けることでセンサー用LEDの明るさが増し、緑や黒などの暗い色の球でも反応するようになります。
 
@@ -327,6 +339,8 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
   ![cocot46plus_bg_mod_1](https://user-images.githubusercontent.com/88039287/175553271-ab133f23-baa0-479b-8bf1-9814e3324789.jpg)
 
   ![cocot46plus_bg_mod_2](https://user-images.githubusercontent.com/88039287/175553266-1370696c-3f86-420b-bee9-94a090027a80.jpg)
+
+  </details>
 
 
 ## Links
