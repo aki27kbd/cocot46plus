@@ -9,27 +9,22 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 中央奥側にはOLEDには現在のレイヤー情報、トラックボールのステータス（CPIや回転軸の角度など）を表示することができます。
 その他オプションとしてアクリル積層ケースを用意しているので、お好みに合わせて実装ください。
 
+v1のビルドガイドはこちら（[JP](doc/v1/buildguide.md) / [EN](doc/v1/buildguide_en.md)）を参照してください。
+
 ## 部品
 ### キット付属品
 
-|![Switch_Plate](https://user-images.githubusercontent.com/88039287/171806873-68054a1a-36d1-4915-b93d-127a05854126.jpg)|![PCB](https://user-images.githubusercontent.com/88039287/170449594-f5357de6-4e08-4077-a050-3e613a48e674.jpg) ![PCB_v2](https://user-images.githubusercontent.com/88039287/175255696-1d310e30-9058-4b14-a484-3ebb340d5741.jpg)|![Bottom_Acryl](https://user-images.githubusercontent.com/88039287/170622426-63cfeaea-aa0a-4e17-b10a-165db2cff906.jpg)|![Bottom_FR4](https://user-images.githubusercontent.com/88039287/171806984-461ad017-8711-4a60-9600-2489366fadf8.jpg)|
+|![Switch_Plate](https://user-images.githubusercontent.com/88039287/171806873-68054a1a-36d1-4915-b93d-127a05854126.jpg)|![PCB_v2](https://user-images.githubusercontent.com/88039287/205923168-0d0df27b-0a3f-4af9-aba0-c3d1f32002cb.jpg)|![Bottom_Acryl_v2](https://user-images.githubusercontent.com/88039287/205923519-edbd1ccf-e472-47fe-9218-6a58ee6ed255.jpg)|![Bottom_FR4](https://user-images.githubusercontent.com/88039287/171806984-461ad017-8711-4a60-9600-2489366fadf8.jpg)|
 |---|---|---|---|
-|スイッチプレート（FR4）×1枚|実装済基板×1枚（販売時期によってタブがついている場合があります）|ボトムプレート➀（アクリル）×1枚（販売時期によってデザインが異なる場合があります）|ボトムプレート➁（FR4）×1枚|
-|![OLED_Cover](https://user-images.githubusercontent.com/88039287/171806991-c0f1b51d-bc91-48cc-b005-a78fb0f66c97.jpg)|![Spacer_8mm](https://user-images.githubusercontent.com/88039287/170515649-114cee4e-3dec-4465-a310-c989946c1a42.jpg)|![Spacer_6mm](https://user-images.githubusercontent.com/88039287/170515641-9056cd4a-f58b-4ec7-a39d-e395ed9dab3d.jpg)|![Spacer_3mm](https://user-images.githubusercontent.com/88039287/170515631-8b3ecdaf-416b-4bc4-814a-b78e2ecb9564.jpg)|
-|OLEDカバープレート（FR4）×1枚|M2 スペーサー 8mm（メス―メス）×15本|M2 スペーサー 6mm（メス―メス）×4本|M2 スペーサー 3mm（メス―オス）×4本|
-|![Screw_3mm](https://user-images.githubusercontent.com/88039287/170508488-f9c20e9d-b73d-4815-877d-80143e98b4a0.jpg)|![Screw_5mm](https://user-images.githubusercontent.com/88039287/170508494-bdf5d0af-b931-436f-9bb0-2520529e32d8.jpg)|![Screw_8mm](https://user-images.githubusercontent.com/88039287/170508513-d78bf413-0ffd-4d2b-af5c-ba677e04bc4d.jpg)|![SwitchSocket](https://user-images.githubusercontent.com/88039287/169816640-7a40ab51-2435-484f-a2ad-c020c374494e.jpg)|
-|M2 ねじ 3mm×19本|M2 ねじ 5mm×15本|M2 ねじ 8mm×4本|MX互換スイッチ用PCBソケット×46個|
-|![ADNS5050](https://user-images.githubusercontent.com/88039287/169820156-9035cbba-5442-4802-9604-11034021dc22.jpeg)|![SensorLED](https://user-images.githubusercontent.com/88039287/169820117-6e0fe2ec-c245-4c5a-a4a0-493fbcde3c55.jpeg)|![OLED](https://user-images.githubusercontent.com/88039287/169819901-5ce452c8-a375-4aa5-b7b8-a138fdbe6984.jpeg)|![ResetSwitch](https://user-images.githubusercontent.com/88039287/169819952-702c3c93-5d5c-447f-826e-60da1ef909b2.jpeg)|
-|マウスセンサー（ADNS-5050）・レンズ×各1個|マウスセンサー用LED×1個|OLEDモジュール・ピンソケット・ピンヘッダ×各1個|タクトスイッチ×1個|
-|![RotaryEncoder](https://user-images.githubusercontent.com/88039287/169816718-450c08e5-dff6-49ae-8aa3-451d7397d9e2.jpg)|![SK6812MINI-E](https://user-images.githubusercontent.com/88039287/169815407-b250e15f-a0f6-411f-9e6a-54aa07cd5fa0.jpg)|![ゴム足](https://user-images.githubusercontent.com/88039287/169814183-75fbffd8-37b3-4ab7-a23b-17e0d72b70cd.jpg)||
-|ロータリーエンコーダ（EC12互換）×1個|フルカラーシリアルLED (SK6812MINI-E)×2個|ゴム足×6個||
-
-### ボールケース付属品
-
-|![Ballcase_34mm](https://user-images.githubusercontent.com/88039287/171815139-c530fdfb-a4dc-42fb-ba31-a66bc673ff44.jpg)|![Ballcase_25mm](https://user-images.githubusercontent.com/88039287/171815132-bf7c2f25-3ba6-4d81-811f-e86ddecdd764.jpg)|
-|---|---|
-|34mmボールケース（上・下）×1個|25mmボールケース（上・下）・25mmボール×1個|
-
+|スイッチプレート（FR4）×1枚|実装済基板×1枚|ボトムプレート➀（アクリル）×1枚（販売時期によってデザインが異なる場合があります）|ボトムプレート➁（FR4）×1枚|
+|![OLED_Cover](https://user-images.githubusercontent.com/88039287/171806991-c0f1b51d-bc91-48cc-b005-a78fb0f66c97.jpg)|![Spacer_8mm_v2](https://user-images.githubusercontent.com/88039287/205923668-0045b034-09db-4351-b71f-80b6741854bf.jpg)|![Spacer_3mm_FF](https://user-images.githubusercontent.com/88039287/205923846-4c8c07bf-3499-4b40-b7f3-590df1d3d88a.jpg)|![Screw_3mm](https://user-images.githubusercontent.com/88039287/170508488-f9c20e9d-b73d-4815-877d-80143e98b4a0.jpg)|
+|OLEDカバープレート（FR4）×1枚|M2 スペーサー 8mm（メス―メス）×15本|M2 スペーサー 3mm（メス―メス）×4本|M2 ねじ 3mm×19本|
+|![Screw_5.5mm](https://user-images.githubusercontent.com/88039287/170508494-bdf5d0af-b931-436f-9bb0-2520529e32d8.jpg)|![Screw_8mm](https://user-images.githubusercontent.com/88039287/170508513-d78bf413-0ffd-4d2b-af5c-ba677e04bc4d.jpg)|![ProMicro](https://user-images.githubusercontent.com/88039287/205924543-1c8691dd-91f6-43c3-93bc-d67ae7ede338.jpg)|![Spring_Pin_Header](https://user-images.githubusercontent.com/88039287/205924750-1ca4d9c8-7dff-472f-9edc-4af409c95afc.jpg)|
+|M2 ねじ 5.5mm×15本|M2 ねじ 8mm×4本|ProMicro×1個|コンスル―×2本|
+|![ADNS5050](https://user-images.githubusercontent.com/88039287/169820156-9035cbba-5442-4802-9604-11034021dc22.jpeg)|![OLED](https://user-images.githubusercontent.com/88039287/169819901-5ce452c8-a375-4aa5-b7b8-a138fdbe6984.jpeg)|![ResetSwitch](https://user-images.githubusercontent.com/88039287/169819952-702c3c93-5d5c-447f-826e-60da1ef909b2.jpeg)|![ゴム足](https://user-images.githubusercontent.com/88039287/169814183-75fbffd8-37b3-4ab7-a23b-17e0d72b70cd.jpg)|
+|マウスセンサー（ADNS-5050）・レンズ×各1個|OLEDモジュール・ピンソケット・ピンヘッダ×各1個|タクトスイッチ×1個|ゴム脚×6個|
+|![RotaryEncoder](https://user-images.githubusercontent.com/88039287/169816718-450c08e5-dff6-49ae-8aa3-451d7397d9e2.jpg)|![SK6812MINI-E](https://user-images.githubusercontent.com/88039287/169815407-b250e15f-a0f6-411f-9e6a-54aa07cd5fa0.jpg)|![Ballcase_34mm_v2](https://user-images.githubusercontent.com/88039287/205925687-38856b6a-9717-4b2f-9e98-5a3fbe8132b8.jpg)||
+|ロータリーエンコーダ（EC12互換）×1個|ノブ×1個|ボールケース×1個||
 
 ### キット以外に必要なもの
 
@@ -37,30 +32,12 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
 
 |名前|数|備考|
 |---|---|---|
-|MicroUSB or USB-TypeCケーブル|1本||
-|ProMicro|1個||
-|コンスル―（2.5mm×12ピン）|2本||
+|USB-TypeCケーブル|1本||
 |キースイッチ|46個|MX互換|
 |キーキャップ（1U）|46個|MX互換|
-|ロータリーエンコーダ用ノブ|1個|最大直径22mm以下|
-|34mmボール|1個|34mmボールケースを選択した場合|
+|34mmボール|1個||
 
 各ショップの在庫状況に応じて検討ください。
-
-<details>
-<summary>ver1.0でのボール色による反応について</summary>
-※ver1.0基板では、34mmボールの色に応じてセンサーの反応が悪くなる場合があります。  
-※デフォルトで反応の悪いボール色も後述の[オプションMOD](https://github.com/aki27kbd/cocot46plus/blob/main/doc/buildguide.md#%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3mod)を施すことで、スムーズに反応するようになります。
-※[2022/8/8追記] ver1.1以降の基板では、予め[オプションMOD](https://github.com/aki27kbd/cocot46plus/blob/main/doc/buildguide.md#%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3mod)が施された状態になっています。デフォルトのままでグリーン、ブラックなどの暗い色のボールの反応も改善されています。
-
-
-|反応性|色|
-|---|---|
-|〇（スムーズに動作可能）|レッド、パープル、シルバー、ゴールド、グレー、イエロー、ピンク、ラベンダー|
-|△（LEDの角度によって少し反応が悪くなる場合あり）|ブルー、グリーン|
-|×（反応しないorカクつく）|ブラック|
-
-</details>
 
 
 ### オプション部品（アクリル積層ケース）
@@ -90,107 +67,52 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
   ![cocot46plus_bg_00](https://user-images.githubusercontent.com/88039287/175265959-04c136b7-71fc-4a8b-9bb1-c0b58ec9184f.jpg)
 
 
-### 1. ダイオード
-
-  ver1.0以降は予め基板にはんだ付けされているので、ダイオードのはんだ付けは不要です。
-
-
-### 2. インジケータLED
-
-  ProMicro横の2箇所にインジケータLEDのはんだ付けを行います。4箇所あるパッドの1箇所に予備はんだを盛り、LEDの位置を固定します。PCBのシルク上の角の部分と、LEDの三角に欠けている部分の向きが揃うようにはんだ付けしてください。LEDは非常に熱に弱いので、はんだごての温度を低めに設定し、一か所はんだ付けをしたら十分時間をおいてから次のはんだ付けを行いましょう。  
-  この段階で後述のファームウェアを準備し、LEDの点灯を一つずつ確認しながらはんだ付けを行うとミスの早期発見につながります。
-  ※デフォルトのファームウェアでは、レイヤー0ではインジケータLEDが点灯しません。点灯確認の際はSW39もしくはSW44のパッドをピンセットなどで短絡させ、レイヤー移動した状態で確認ください。
-
-  ![cocot46plus_bg_02_1](https://user-images.githubusercontent.com/88039287/170450128-7bccdcf2-7e3d-40a5-97e1-0080989e8aac.jpg)
-
-  ![cocot46plus_bg_02_2](https://user-images.githubusercontent.com/88039287/170451293-cf59e7ae-fea7-4a7d-95c5-4da1931f9df6.jpg)
-
-
-### 3. アンダーグロウLED
-
-  ver1.0以降は予め基板にはんだ付けされているので、アンダーグロウLEDのはんだ付けは不要です。
-
-
-### 4. ProMicro
+### 1. ProMicro
 
   ProMicroの準備をします。写真の向きでコンスル―をはんだ付けします。  
   コンスル―には向きがあるので注意してください。コンスル―の向きについては[こちら](https://yushakobo.zendesk.com/hc/ja/articles/360044233974-%E3%82%B3%E3%83%B3%E3%82%B9%E3%83%AB%E3%83%BC-%E3%82%B9%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%94%E3%83%B3%E3%83%98%E3%83%83%E3%83%80-%E3%81%AE%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91%E6%96%B9%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E4%B8%8B%E3%81%95%E3%81%84)を参照ださい。  
   USB Type-C版のProMicroにも対応しています。マイクロUSBの場合、USBコネクタがもげやすいので、適宜補強をしてからはんだ付けを行ってください。
 
-  ![cocot46plus_bg_04_1](https://user-images.githubusercontent.com/88039287/170452185-4f523c38-248c-4b8d-87d4-889d6da17bf8.jpg)
+  ![cocot46plus_bg_01_1](https://user-images.githubusercontent.com/88039287/170452185-4f523c38-248c-4b8d-87d4-889d6da17bf8.jpg)
 
-### 5. マウスセンサー
+### 2. マウスセンサー（ADNS-5050）
 
-#### 5-1. ADNS-5050
   マウスセンサー（ADNS-5050）を基板裏面から写真の向きに設置し、表面からはんだ付けを行います。シルクの●●印と基板の●●印の位置が合うように注意してください。  
-  ![cocot46plus_bg_05_1](https://user-images.githubusercontent.com/88039287/170453958-e58aca65-1f71-4da0-9e0e-cbbb40e56425.jpg)
+  ![cocot46plus_bg_02_1](https://user-images.githubusercontent.com/88039287/205928430-625ecfc4-35e9-42b1-a5d7-df5b4f9352da.jpg)
 
   センサーの脚がしっかり奥まで入った状態で、浮かないようにマスキングテープなどで固定します。  
-  ![cocot46plus_bg_05_2](https://user-images.githubusercontent.com/88039287/170454505-65b0aa78-7d06-4c31-b2ab-bc4f62f97776.jpg)
+  ![cocot46plus_bg_02_2](https://user-images.githubusercontent.com/88039287/205928575-54091156-6ef4-40b5-aeb5-85ed4f3a069a.jpg)
 
-  表面から8本の脚をはんだ付けします。  
-  ![cocot46plus_bg_05_3](https://user-images.githubusercontent.com/88039287/170454245-9da5e45f-c8a4-41ba-87e1-4c37c676beb9.jpg)
+  表面から8本の脚をはんだ付けします。センサーに貼られているテープもこのタイミングではがしておきます。  
+  ![cocot46plus_bg_02_3](https://user-images.githubusercontent.com/88039287/205928856-9a40670c-a4d4-49a2-89fb-7ac671164bfb.jpg)
 
-  センサーに貼られているテープを剥がし、表面からレンズを付けてマスキングテープなどで固定します。  
-  ![cocot46plus_bg_05_4](https://user-images.githubusercontent.com/88039287/170454912-ce859541-987f-4614-9b10-c68802e6cfbf.jpg)
-
-#### 5-2. センサー用LED
-
-  マウスセンサー用LEDを取り付けます。基板裏面からLEDの脚を通します。脚の長い方を丸い穴、短い方を四角い穴に通します。  
-  ![cocot46plus_bg_05_5](https://user-images.githubusercontent.com/88039287/170455005-ff9d7af7-7d88-41b9-badc-025330ba14ea.jpg)
-
-  LEDの脚を90度曲げ、横から見た時に下の写真のような位置関係になるようにマスキングテープなどで固定します。  
-  ![cocot46plus_bg_05_5_2](https://user-images.githubusercontent.com/88039287/170455581-06e7b4f3-395c-44a6-93ec-c8fb8e6215e4.jpg)
-
-  表面からLEDの脚を2箇所はんだ付けし、余分な脚をカットします。  
-  ![cocot46plus_bg_05_6](https://user-images.githubusercontent.com/88039287/170455780-9cd94127-6efa-4838-9992-78e39cf6972e.jpg)
-
-#### 5-3. ジャンパー
-
-  基板裏面のジャンパーの両側のパッドにはんだを盛り、ブリッジさせます。  
-  ![cocot46plus_bg_05_7](https://user-images.githubusercontent.com/88039287/170455922-7b17c4ca-8e60-4abd-8a33-edb597827bff.jpg)
-
-  ![cocot46plus_bg_05_8](https://user-images.githubusercontent.com/88039287/170455929-1655e25f-8b99-49c7-b6f9-6a1d540ee2c3.jpg)
-
-  ここまでの作業が完了したら、ProMicroに後述のファームウェアを書き込み、動作確認を行いましょう。正しい手順を踏めている場合、全部で12個のLEDとマウスセンサー用LEDが点灯しているはずです。  
-  ![cocot46plus_bg_05_9a](https://user-images.githubusercontent.com/88039287/170456116-d3602e8f-aa3c-4f3c-8777-1d4b63a35322.jpg)
-
-  表面のレンズの前に手をかざし、マウスカーソルが動いているか確認してみてください。  
-  ![cocot46plus_bg_05_9b](https://user-images.githubusercontent.com/88039287/170456125-8737a304-75ed-45ea-8600-f5e00ac87531.jpg)
-
-### 6. MXソケット
-
-  PCB裏面に、写真の向きでソケットをはんだ付けします。**全46箇所**はんだ付けを行ってください。
-
-  ![cocot46plus_bg_06_1](https://user-images.githubusercontent.com/88039287/170466184-43520998-4b82-4081-b9e0-286dcfd2c209.jpg)
-
-### 7. OLED
+### 3. OLED
 
   OLEDピンソケットを表側から挿し、マスキングテープなどで固定します。  
-  ![cocot46plus_bg_07_1](https://user-images.githubusercontent.com/88039287/170467680-c5bf1d65-fe7e-406b-a933-91ee3e93b58d.jpg)
+  ![cocot46plus_bg_03_1](https://user-images.githubusercontent.com/88039287/170467680-c5bf1d65-fe7e-406b-a933-91ee3e93b58d.jpg)
 
-  ![cocot46plus_bg_07_2](https://user-images.githubusercontent.com/88039287/170467910-3b9ef4bc-dfab-4c57-ae40-404f63fd76a6.jpg)
+  ![cocot46plus_bg_03_2](https://user-images.githubusercontent.com/88039287/170467910-3b9ef4bc-dfab-4c57-ae40-404f63fd76a6.jpg)
 
   基板裏側からピンソケットの脚4本のはんだ付けを行ってください。  
-  ![cocot46plus_bg_07_3](https://user-images.githubusercontent.com/88039287/170468810-e113a686-0350-4d38-ba71-02273a7c83d9.jpg)
+  ![cocot46plus_bg_03_3](https://user-images.githubusercontent.com/88039287/170468810-e113a686-0350-4d38-ba71-02273a7c83d9.jpg)
 
 
   OLEDモジュールにピンヘッダを通し、斜めにならないように1本ずつはんだ付けを行います。  
-  ![cocot46plus_bg_07_4](https://user-images.githubusercontent.com/88039287/170474570-298a2c45-4f1e-40e6-a35a-7291a0f67d20.jpg)
+  ![cocot46plus_bg_03_4](https://user-images.githubusercontent.com/88039287/170474570-298a2c45-4f1e-40e6-a35a-7291a0f67d20.jpg)
 
 
-### 8. タクトスイッチ
+### 4. タクトスイッチ
 
   PCB表面に、タクトスイッチ（リセットスイッチ）を取り付け、裏面からはんだ付けします。1箇所のみです。  
-  ![cocot46plus_bg_08_1](https://user-images.githubusercontent.com/88039287/170474668-4fefb8fe-1c71-49c3-8657-79d88a92d53a.jpg)
+  ![cocot46plus_bg_04_1](https://user-images.githubusercontent.com/88039287/170474668-4fefb8fe-1c71-49c3-8657-79d88a92d53a.jpg)
 
 
-### 9. ロータリーエンコーダ
+### 5. ロータリーエンコーダ
 
   中央部分にロータリーエンコーダをはんだ付けします。ロータリーエンコーダの脚を通し、裏側からはんだ付けをしてください。  
-  ![cocot46plus_bg_09_1](https://user-images.githubusercontent.com/88039287/170474731-cd817ef7-662f-4d09-a309-c73f993b37d9.jpg)
+  ![cocot46plus_bg_05_1](https://user-images.githubusercontent.com/88039287/170474731-cd817ef7-662f-4d09-a309-c73f993b37d9.jpg)
 
-  ![cocot46plus_bg_09_2](https://user-images.githubusercontent.com/88039287/170474739-0a417432-8ab3-463f-8600-5ee963c2c427.jpg)
+  ![cocot46plus_bg_05_2](https://user-images.githubusercontent.com/88039287/170474739-0a417432-8ab3-463f-8600-5ee963c2c427.jpg)
 
 
   全てのパーツを付け終わった状態です。  
@@ -199,41 +121,38 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
   ![cocot46plus_bg_09_4](https://user-images.githubusercontent.com/88039287/170474767-5a647ab8-ec9e-475e-a5a2-dbfa7f804846.jpg)
 
 
-### 10. 組み立て
+### 6. 組み立て
 
   To be updated.
-  ボトムプレート（アクリル）に5mmネジで8mmスペーサーを固定します。  
-  ![cocot46plus_bg_10_1](https://user-images.githubusercontent.com/88039287/171879994-45020675-e3e5-491c-94e8-8f10647011dc.jpg)
+  ボトムプレート（アクリル）に5.5mmネジで8mmスペーサーを固定します。  
+  ![cocot46plus_bg_06_1](https://user-images.githubusercontent.com/88039287/205934015-431b887f-fd0d-40d4-b0bf-02f9964ecb81.jpg)
 
-  ボトムプレート（FR4）をアクリルの裏側（底側）に重ね、5mmネジで3mmスペーサー（メス―オス）を固定します。  
-  ![cocot46plus_bg_10_2](https://user-images.githubusercontent.com/88039287/171880618-86b4a8c0-8a22-49cf-9021-a2281c51c2af.jpg)
+  ボトムプレート（FR4）をアクリルの裏側（底側）に重ね、5.5mmネジで3mmスペーサーを固定します。  
+  ![cocot46plus_bg_06_2](https://user-images.githubusercontent.com/88039287/205934028-446aadb9-f03d-4a19-ae9d-2ac39559edea.jpg)
 
   基板上に3mmネジで8mmスペーサーを固定します。またOLEDもピンソケットに差し込んでおきます。  
-  ![cocot46plus_bg_10_3](https://user-images.githubusercontent.com/88039287/171881016-c5cdf3c9-ce5d-4273-bb90-fc0c4ebfe5a9.jpg)
+  ![cocot46plus_bg_06_3](https://user-images.githubusercontent.com/88039287/205934032-a689959e-0b9f-4001-9387-ce7409df19cc.jpg)
 
   スイッチプレートと基板を重ね、隅から順番にキースイッチをはめていきます。スイッチの向きに気を付けて、またスイッチの脚が曲がらないように真っすぐに差し込むようにしてください。  
-  ![cocot46plus_bg_10_4](https://user-images.githubusercontent.com/88039287/171824033-ace5a500-1ddf-48ca-9bd8-ebec2124e5dd.jpg)
+  ![cocot46plus_bg_06_4](https://user-images.githubusercontent.com/88039287/205934037-4123abfe-0369-4e0a-9713-bccfb9d39769.jpg)
 
   全てのキースイッチを差し込んだ状態です。  
-  ![cocot46plus_bg_10_5](https://user-images.githubusercontent.com/88039287/171824021-608cc69b-2f85-4d8a-adb3-41fcdd79617c.jpg)
-
-  スイッチを差し込んだスイッチプレート&基板を、ボトムプレートの上に重ねます。トラックボール廻りの4箇所を6mmスペーサーで固定します。  
-  ![cocot46plus_bg_10_6](https://user-images.githubusercontent.com/88039287/171881711-fff519e3-f4d9-43fa-91f1-e2db09ebb302.jpg)
+  ![cocot46plus_bg_06_5](https://user-images.githubusercontent.com/88039287/205934041-a6fbafed-bcc7-4e55-8cde-c2ce420c99fb.jpg)
 
   スイッチプレートを3mmネジで固定します。  
-  ![cocot46plus_bg_10_7](https://user-images.githubusercontent.com/88039287/171882199-1ff363c5-eee2-4ed3-8c2b-51cbbfb57c04.jpg)
+  ![cocot46plus_bg_06_6](https://user-images.githubusercontent.com/88039287/205934044-4b17c40b-ce43-4e9d-a252-cd5f5901d65e.jpg)
 
   OLEDカバープレートを3mmネジで固定します。  
-  ![cocot46plus_bg_10_8](https://user-images.githubusercontent.com/88039287/171882865-7f5b7abf-20c2-42ec-9d7b-1b7622fae37d.jpg)
+  ![cocot46plus_bg_06_7](https://user-images.githubusercontent.com/88039287/205934047-374ede9c-dae8-497c-85b5-cfe5e0965f46.jpg)
 
   トラックボールケースに対応するボールを入れ、8mmネジで固定します。  
-  ![cocot46plus_bg_10_9](https://user-images.githubusercontent.com/88039287/171883283-fffed352-0f25-4d74-8c89-b18b8e9e8224.jpg)
+  ![cocot46plus_bg_06_8](https://user-images.githubusercontent.com/88039287/205934052-3c2713a3-a65e-45e9-ba27-4bff50542380.jpg)
 
   ボトムプレートにバランスよくゴム脚を貼り付けます。  
-  ![cocot46plus_bg_10_10](https://user-images.githubusercontent.com/88039287/171824584-1361360a-e5be-4d3c-9e66-b0b67770ad55.jpg)
+  ![cocot46plus_bg_06_9](https://user-images.githubusercontent.com/88039287/205934053-211ffc1a-3bb6-4b60-98f0-48205c640b42.jpg)
 
   お好みのキーキャップ、ロータリーエンコーダのノブを付けて完成です！
-  ![cocot46plus_bg_10_11](https://user-images.githubusercontent.com/88039287/171824592-1894730f-27d0-466f-840b-9d848abf2791.jpg)
+  ![cocot46plus_bg_06_10](https://user-images.githubusercontent.com/88039287/205934057-ae4e05d5-e91a-4d3b-a659-67fa307f5c2b.jpg)
 
 
 ### 11. [オプション]アクリルミドルプレート
@@ -296,11 +215,7 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
   `0x5DAC` | `SCRL_TO` |押すたびにスクロールモードとマウスモードを切り替えます。
   `0x5DAD` | `SCRL_IN` |スクロール方向を反転させます。
 
-  REMAPでカスタムキーコードを設定する場合は下記の画面のようにCUSTOMから上の表のValueを直接入力してください。
-
-  ![CustomKeycode](https://user-images.githubusercontent.com/88039287/169856477-84ebf6bb-9430-44f8-a650-537ab8f0a79b.jpg)
-
-  ※[2022/11/8追記] 最新の[ファームウェア](https://remap-keys.app/catalog/JPk6Ey9xB6yrr5TDqoLh/firmware)を書き込むと、RemapからValueを直接入力することなくカスタムキーコードを入力できるようになりました。
+  REMAPでカスタムキーコードを設定する場合は下記の画面からカスタムキーコードを設定可能です。
   ![CustomKeycode_rev](https://user-images.githubusercontent.com/88039287/200452631-9aac13d4-22e4-45f8-866a-a6e3093cbaf8.jpg)
 
 
@@ -321,26 +236,6 @@ cocot46plusは中央に34mmトラックボールを備えていることが一�
   ![cocot46plus_bg_oled_2_2](https://user-images.githubusercontent.com/88039287/170499867-b430839b-f2f0-4163-afa2-c227184bd697.jpg)
 
   ![cocot46plus_bg_oled_3_4_5](https://user-images.githubusercontent.com/88039287/171883896-1a3b91cb-84b8-425c-b490-9affa5f42095.jpg)
-
-
-## オプションMOD
-
-  ※※[2022/8/8追記] ver1.1以降の基板では、予めこちらのオプションMODが施された状態になっています。デフォルトのままでグリーン、ブラックなどの暗い色のボールの反応も改善されています。
-
-  <details>
-<summary>オプションMOD</summary>
-
-  ver1.0基板のデフォルトの状態では反応の悪いボール色も、少し手を加えることでスムーズに反応するようになります。
-
-  PCB裏面のR1のスルーホール端子部分に小さめの抵抗を付けることでセンサー用LEDの明るさが増し、緑や黒などの暗い色の球でも反応するようになります。
-
-  参考までに、ぺリックス緑球は[300Ω](https://akizukidenshi.com/catalog/g/gR-25301/)、ぺリックス黒球は[150Ω](https://akizukidenshi.com/catalog/g/gR-25151/)で動作確認できています。
-
-  ![cocot46plus_bg_mod_1](https://user-images.githubusercontent.com/88039287/175553271-ab133f23-baa0-479b-8bf1-9814e3324789.jpg)
-
-  ![cocot46plus_bg_mod_2](https://user-images.githubusercontent.com/88039287/175553266-1370696c-3f86-420b-bee9-94a090027a80.jpg)
-
-  </details>
 
 
 ## Links
