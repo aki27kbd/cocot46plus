@@ -18,13 +18,13 @@ v1のビルドガイドはこちら（[JP](v1/buildguide.md) / [EN](v1/buildguid
 |---|---|---|---|
 |スイッチプレート（FR4）×1枚|実装済基板×1枚|ボトムプレート➀（アクリル）×1枚（販売時期によってデザインが異なる場合があります）|ボトムプレート➁（FR4）×1枚|
 |![OLED_Cover](https://user-images.githubusercontent.com/88039287/171806991-c0f1b51d-bc91-48cc-b005-a78fb0f66c97.jpg)|![Spacer_8mm_v2](https://user-images.githubusercontent.com/88039287/205923668-0045b034-09db-4351-b71f-80b6741854bf.jpg)|![Spacer_3mm_FF](https://user-images.githubusercontent.com/88039287/205923846-4c8c07bf-3499-4b40-b7f3-590df1d3d88a.jpg)|![Screw_3mm](https://user-images.githubusercontent.com/88039287/170508488-f9c20e9d-b73d-4815-877d-80143e98b4a0.jpg)|
-|OLEDカバープレート（FR4）×1枚|M2 スペーサー 8mm（メス―メス）×15本|M2 スペーサー 3mm（メス―メス）×4本|M2 ねじ 3mm×19本|
+|OLEDカバープレート（FR4）×1枚|M2 スペーサー 長（メス―メス）×15本|M2 スペーサー 短（メス―メス）×4本|M2 ねじ 短×19本|
 |![Screw_5.5mm](https://user-images.githubusercontent.com/88039287/170508494-bdf5d0af-b931-436f-9bb0-2520529e32d8.jpg)|![Screw_8mm](https://user-images.githubusercontent.com/88039287/170508513-d78bf413-0ffd-4d2b-af5c-ba677e04bc4d.jpg)|![ProMicro](https://user-images.githubusercontent.com/88039287/205924543-1c8691dd-91f6-43c3-93bc-d67ae7ede338.jpg)|![Spring_Pin_Header](https://user-images.githubusercontent.com/88039287/205924750-1ca4d9c8-7dff-472f-9edc-4af409c95afc.jpg)|
-|M2 ねじ 5.5mm×15本|M2 ねじ 8mm×4本|ProMicro×1個|コンスル―×2本|
+|M2 ねじ 中×15本|M2 ねじ 長×4本|ProMicro×1個|コンスル―×2本|
 |![ADNS5050](https://user-images.githubusercontent.com/88039287/169820156-9035cbba-5442-4802-9604-11034021dc22.jpeg)|![OLED](https://user-images.githubusercontent.com/88039287/169819901-5ce452c8-a375-4aa5-b7b8-a138fdbe6984.jpeg)|![ResetSwitch](https://user-images.githubusercontent.com/88039287/169819952-702c3c93-5d5c-447f-826e-60da1ef909b2.jpeg)|![ゴム足](https://user-images.githubusercontent.com/88039287/169814183-75fbffd8-37b3-4ab7-a23b-17e0d72b70cd.jpg)|
 |マウスセンサー（ADNS-5050）・レンズ×各1個|OLEDモジュール・ピンソケット・ピンヘッダ×各1個|タクトスイッチ×1個|ゴム脚×6個|
 |![RotaryEncoder](https://user-images.githubusercontent.com/88039287/169816718-450c08e5-dff6-49ae-8aa3-451d7397d9e2.jpg)|![SK6812MINI-E](https://user-images.githubusercontent.com/88039287/169815407-b250e15f-a0f6-411f-9e6a-54aa07cd5fa0.jpg)|![Ballcase_34mm_v2](https://user-images.githubusercontent.com/88039287/205925687-38856b6a-9717-4b2f-9e98-5a3fbe8132b8.jpg)||
-|ロータリーエンコーダ（EC12互換）×1個|ノブ×1個|ボールケース×1個||
+|ロータリーエンコーダ（EC12互換）×1個|ノブ×1個|ボールケース×1個（＋セラミックボール×3個）||
 
 ### キット以外に必要なもの
 
@@ -84,6 +84,7 @@ v1のビルドガイドはこちら（[JP](v1/buildguide.md) / [EN](v1/buildguid
   ![cocot46plus_bg_02_2](https://user-images.githubusercontent.com/88039287/205928575-54091156-6ef4-40b5-aeb5-85ed4f3a069a.jpg)
 
   表面から8本の脚をはんだ付けします。センサーに貼られているテープもこのタイミングではがしておきます。  
+  テープをはがしたらセンサーを取り付け、マスキングテープなどで軽く固定しておきます。
   ![cocot46plus_bg_02_3](https://user-images.githubusercontent.com/88039287/205928856-9a40670c-a4d4-49a2-89fb-7ac671164bfb.jpg)
 
 ### 3. OLED
@@ -121,16 +122,35 @@ v1のビルドガイドはこちら（[JP](v1/buildguide.md) / [EN](v1/buildguid
   ![cocot46plus_bg_09_4](https://user-images.githubusercontent.com/88039287/170474767-5a647ab8-ec9e-475e-a5a2-dbfa7f804846.jpg)
 
 
-### 6. 組み立て
+### 6. ボールケース
 
-  To be updated.
-  ボトムプレート（アクリル）に5.5mmネジで8mmスペーサーを固定します。  
+  ボールケースにセラミックボールを固定します。キット内容物以外に必要な道具は下記写真の通り、エポキシ2液混合接着剤、接着剤を取り出す容器、爪楊枝になります。  
+  ![cocot46plus_bg_ballcase_01](https://user-images.githubusercontent.com/88039287/226820854-839753fa-50cc-49b4-b183-860b4672632e.jpg)
+
+  接着剤の取り扱い説明に沿って接着液の準備を行います。  
+  ![cocot46plus_bg_ballcase_02](https://user-images.githubusercontent.com/88039287/226820885-08b87789-22ed-47b8-828b-e8ba3df3491b.jpg)
+
+  爪楊枝の先端に接着剤を少量付け、ボールケース内側の穴に塗ります。塗りすぎるとボールを嵌めた際にあふれてしまうので、窪みの内側が接着剤で薄く覆われる程度を目安としてください。  
+  ![cocot46plus_bg_ballcase_03](https://user-images.githubusercontent.com/88039287/226820905-af0f3451-a6f7-4ecd-a42f-e3e1407a0052.jpg)
+
+  ![cocot46plus_bg_ballcase_04](https://user-images.githubusercontent.com/88039287/226820925-2cb8de68-cb62-473e-a874-141fe15a1e09.jpg)
+
+  接着剤が乾く前にボールをはめ込みます。接着剤がボールの周りにあふれてしまった場合は固まる前にきれいにふき取ってください。  
+  ![cocot46plus_bg_ballcase_05](https://user-images.githubusercontent.com/88039287/226820957-14e5d2f1-9693-4ec7-9fb0-9a6081d463f8.jpg)
+
+  3箇所すべてボールを接着すればボールケースの準備完了です。  
+  ![cocot46plus_bg_ballcase_06](https://user-images.githubusercontent.com/88039287/226821043-05606c8c-6c40-4bf9-b368-8b84e1a0726b.jpg)
+
+
+### 7. 組み立て
+
+  ボトムプレート（アクリル）にネジ（中）でスペーサー（長）を固定します。  
   ![cocot46plus_bg_06_1](https://user-images.githubusercontent.com/88039287/205934015-431b887f-fd0d-40d4-b0bf-02f9964ecb81.jpg)
 
-  ボトムプレート（FR4）をアクリルの裏側（底側）に重ね、5.5mmネジで3mmスペーサーを固定します。  
+  ボトムプレート（FR4）をアクリルの裏側（底側）に重ね、ネジ（中）でスペーサー（短）を固定します。  
   ![cocot46plus_bg_06_2](https://user-images.githubusercontent.com/88039287/205934028-446aadb9-f03d-4a19-ae9d-2ac39559edea.jpg)
 
-  基板上に3mmネジで8mmスペーサーを固定します。またOLEDもピンソケットに差し込んでおきます。  
+  基板上にネジ（短）でスペーサー（長）を固定します。またOLEDもピンソケットに差し込んでおきます。  
   ![cocot46plus_bg_06_3](https://user-images.githubusercontent.com/88039287/205934032-a689959e-0b9f-4001-9387-ce7409df19cc.jpg)
 
   スイッチプレートと基板を重ね、隅から順番にキースイッチをはめていきます。スイッチの向きに気を付けて、またスイッチの脚が曲がらないように真っすぐに差し込むようにしてください。  
@@ -139,13 +159,14 @@ v1のビルドガイドはこちら（[JP](v1/buildguide.md) / [EN](v1/buildguid
   全てのキースイッチを差し込んだ状態です。  
   ![cocot46plus_bg_06_5](https://user-images.githubusercontent.com/88039287/205934041-a6fbafed-bcc7-4e55-8cde-c2ce420c99fb.jpg)
 
-  スイッチプレートを3mmネジで固定します。  
+  スイッチプレートをネジ（短）で固定します。  
   ![cocot46plus_bg_06_6](https://user-images.githubusercontent.com/88039287/205934044-4b17c40b-ce43-4e9d-a252-cd5f5901d65e.jpg)
 
-  OLEDカバープレートを3mmネジで固定します。  
+  OLEDカバープレートをネジ（短）で固定します。  
   ![cocot46plus_bg_06_7](https://user-images.githubusercontent.com/88039287/205934047-374ede9c-dae8-497c-85b5-cfe5e0965f46.jpg)
 
-  トラックボールケースに対応するボールを入れ、8mmネジで固定します。  
+  トラックボールケースに対応するボールを入れ、ネジ（長）で固定します。  
+  レンズを仮固定していたマスキングテープはこのタイミングではがしてください。
   ![cocot46plus_bg_06_8](https://user-images.githubusercontent.com/88039287/205934052-3c2713a3-a65e-45e9-ba27-4bff50542380.jpg)
 
   ボトムプレートにバランスよくゴム脚を貼り付けます。  
