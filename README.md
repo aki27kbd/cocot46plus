@@ -13,7 +13,7 @@ cocot46plus is a column staggered keyboard with 46 keys, a 34mm-trackball and a 
 The detail information is available from the link below:  
 [JP](https://www.notion.so/aki27/cocot46plus-55775bf44a664dae9d6ca342e79e8312) / [EN](https://aki27.notion.site/cocot46plus-Introduction-e6261b0a5ce045f8a0d8535a74844929)
 
-[Firmware](https://github.com/aki27kbd/qmk_firmware/tree/master/keyboards/cocot46plus)
+[Firmware](https://github.com/aki27kbd/qmk_firmware/tree/master/keyboards/aki27/cocot46plus)
 
 Build Guide [JP](doc/buildguide.md) / [EN](doc/buildguide_en.md)
 
